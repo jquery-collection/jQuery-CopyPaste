@@ -19,3 +19,12 @@ function copy(text2copy) {
     document.getElementById(flashcopier).innerHTML = divinfo;
   }
 }
+/*
+
+<form name="form1" action="">
+  <textarea name="results" cols="40" rows="6">All of the text here will be copied. Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum.</textarea>
+  <br>
+  <input type="button" value="Copy This" onclick="copy(document.form1.results.value);">
+</form>
+
+*/
